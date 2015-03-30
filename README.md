@@ -1,5 +1,7 @@
 # `activeadmin-wysihtml5`
 
+This gem is a fork of the official activeadmin wysihtml5 gem. Is only goal is to fix a bug when using firefox browser.
+
 ### :warning: Unmaintained :warning:
 
 Sorry, but I no longer work on ActiveAdmin often enough to justify mantaining this gem. Take it as it is. If you are interested to update and maintain the gem, please let me know! :heart:
@@ -21,7 +23,7 @@ interface using [wysihtml5](https://github.com/xing/wysihtml5).
 # Gemfile
 
 gem 'activeadmin-dragonfly', github: 'stefanoverna/activeadmin-dragonfly'
-gem 'activeadmin-wysihtml5', github: 'stefanoverna/activeadmin-wysihtml5'
+gem 'activeadmin-wysihtml5', github: 'anthony-robin/activeadmin-wysihtml5'
 ```
 
 Now install the migrations:
