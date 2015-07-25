@@ -42,7 +42,8 @@
       editor = new wysihtml5.Editor($textarea.attr('id'), {
         toolbar: $toolbar.attr('id'),
         stylesheets: "/assets/activeadmin-wysihtml5/wysiwyg.css",
-        parserRules: wysihtml5ParserRules
+        parserRules: wysihtml5ParserRules,
+        useLinebreaks: false
       })
 
       $button = $toolbar.find('a[data-wysihtml5-command=createLink]').click ->
